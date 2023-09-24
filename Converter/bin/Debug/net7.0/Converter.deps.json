@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Converter/1.0.0": {
         "dependencies": {
+          "ConverterRepo": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
@@ -614,6 +615,24 @@
           }
         }
       },
+      "ConverterRepo/1.0.0": {
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "ConverterRepo.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "runtime": {
           "Models.dll": {}
@@ -1095,6 +1114,16 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "ConverterRepo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Models/1.0.0": {
       "type": "project",

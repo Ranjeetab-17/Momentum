@@ -131,8 +131,12 @@ C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\runtimes\win\lib\net
 C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\ConverterRepo.dll
+C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\DataAccess.dll
 C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\Models.dll
+C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\ConverterRepo.pdb
 C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\Models.pdb
+C:\Development\Momentum\Momentum\Converter\bin\Debug\net7.0\DataAccess.pdb
 C:\Development\Momentum\Momentum\Converter\obj\Debug\net7.0\Converter.csproj.AssemblyReference.cache
 C:\Development\Momentum\Momentum\Converter\obj\Debug\net7.0\Converter.GeneratedMSBuildEditorConfig.editorconfig
 C:\Development\Momentum\Momentum\Converter\obj\Debug\net7.0\Converter.AssemblyInfoInputs.cache

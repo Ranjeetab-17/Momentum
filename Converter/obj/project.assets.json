@@ -1160,6 +1160,34 @@
           }
         }
       },
+      "ConverterRepo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConverterRepo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConverterRepo.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3342,6 +3370,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ConverterRepo/1.0.0": {
+      "type": "project",
+      "path": "../ConverterRepo/ConverterRepo.csproj",
+      "msbuildProject": "../ConverterRepo/ConverterRepo.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -3350,6 +3388,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ConverterRepo >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
@@ -3385,6 +3424,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj": {
+              "projectPath": "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj"
+            },
             "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj": {
               "projectPath": "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj"
             }

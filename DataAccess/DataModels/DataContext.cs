@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Converter.DataModel;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ namespace DataAccess.DataModels
 {
     public class DataContext : DbContext
     {
-        public DataContext() { }
+        public DataContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<ConverterMaster> _master { get; set; }
+        public DbSet<LengthConversion> LengthConversions { get; set; }
     }
 }
