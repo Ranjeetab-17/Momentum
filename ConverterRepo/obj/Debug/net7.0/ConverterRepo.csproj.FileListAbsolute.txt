@@ -1,0 +1,12 @@
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\ConverterRepo.deps.json
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\ConverterRepo.dll
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\ConverterRepo.pdb
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.csproj.AssemblyReference.cache
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.AssemblyInfoInputs.cache
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.AssemblyInfo.cs
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.csproj.CoreCompileInputs.cache
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.dll
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\refint\ConverterRepo.dll
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.pdb
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ref\ConverterRepo.dll
