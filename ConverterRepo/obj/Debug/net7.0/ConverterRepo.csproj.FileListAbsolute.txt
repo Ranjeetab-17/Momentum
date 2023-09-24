@@ -27,3 +27,8 @@ C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.dl
 C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\refint\ConverterRepo.dll
 C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.pdb
 C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ref\ConverterRepo.dll
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\DataAccess.dll
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\Models.dll
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\DataAccess.pdb
+D:\Interview\Momentum\ConverterRepo\bin\Debug\net7.0\Models.pdb
+D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.csproj.CopyComplete

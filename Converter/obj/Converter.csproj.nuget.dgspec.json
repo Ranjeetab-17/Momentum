@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Momentum\\Momentum\\Converter\\Converter.csproj": {}
+    "d:\\Interview\\Momentum\\Converter\\Converter.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj": {
+    "d:\\Interview\\Momentum\\ConverterRepo\\ConverterRepo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj",
+        "projectUniqueName": "d:\\Interview\\Momentum\\ConverterRepo\\ConverterRepo.csproj",
         "projectName": "ConverterRepo",
-        "projectPath": "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\obj\\",
+        "projectPath": "d:\\Interview\\Momentum\\ConverterRepo\\ConverterRepo.csproj",
+        "packagesPath": "C:\\Users\\Ranjeet\\.nuget\\packages\\",
+        "outputPath": "d:\\Interview\\Momentum\\ConverterRepo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ranjeet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj"
+              "d:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "d:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj": {
-                "projectPath": "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj"
+              "d:\\Interview\\Momentum\\Models\\Models.csproj": {
+                "projectPath": "d:\\Interview\\Momentum\\Models\\Models.csproj"
               }
             }
           }
@@ -62,21 +67,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Development\\Momentum\\Momentum\\Converter\\Converter.csproj": {
+    "d:\\Interview\\Momentum\\Converter\\Converter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Momentum\\Momentum\\Converter\\Converter.csproj",
+        "projectUniqueName": "d:\\Interview\\Momentum\\Converter\\Converter.csproj",
         "projectName": "Converter",
-        "projectPath": "C:\\Development\\Momentum\\Momentum\\Converter\\Converter.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Momentum\\Momentum\\Converter\\obj\\",
+        "projectPath": "d:\\Interview\\Momentum\\Converter\\Converter.csproj",
+        "packagesPath": "C:\\Users\\Ranjeet\\.nuget\\packages\\",
+        "outputPath": "d:\\Interview\\Momentum\\Converter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ranjeet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,17 +93,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj": {
-                "projectPath": "C:\\Development\\Momentum\\Momentum\\ConverterRepo\\ConverterRepo.csproj"
+              "d:\\Interview\\Momentum\\ConverterRepo\\ConverterRepo.csproj": {
+                "projectPath": "d:\\Interview\\Momentum\\ConverterRepo\\ConverterRepo.csproj"
               },
-              "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj": {
-                "projectPath": "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj"
+              "d:\\Interview\\Momentum\\Models\\Models.csproj": {
+                "projectPath": "d:\\Interview\\Momentum\\Models\\Models.csproj"
               }
             }
           }
@@ -151,21 +162,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj": {
+    "d:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "d:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Momentum\\Momentum\\DataAccess\\obj\\",
+        "projectPath": "d:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Ranjeet\\.nuget\\packages\\",
+        "outputPath": "d:\\Interview\\Momentum\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ranjeet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,6 +188,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -222,21 +238,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj": {
+    "d:\\Interview\\Momentum\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj",
+        "projectUniqueName": "d:\\Interview\\Momentum\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Development\\Momentum\\Momentum\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Momentum\\Momentum\\Models\\obj\\",
+        "projectPath": "d:\\Interview\\Momentum\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Ranjeet\\.nuget\\packages\\",
+        "outputPath": "d:\\Interview\\Momentum\\Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ranjeet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -244,6 +264,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -277,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
