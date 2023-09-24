@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj": {
+    "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Interview\\Momentum\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Ranjeet\\.nuget\\packages\\",
-        "outputPath": "D:\\Interview\\Momentum\\DataAccess\\obj\\",
+        "projectPath": "C:\\Development\\Momentum\\Momentum\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Momentum\\Momentum\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ranjeet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

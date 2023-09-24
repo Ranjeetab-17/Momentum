@@ -12,3 +12,17 @@ D:\Interview\Momentum\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
 D:\Interview\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.pdb
 D:\Interview\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
 D:\Interview\Momentum\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+C:\Development\Momentum\Momentum\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+C:\Development\Momentum\Momentum\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+C:\Development\Momentum\Momentum\DataAccess\bin\Debug\net7.0\DataAccess.dll
+C:\Development\Momentum\Momentum\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.dll
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
+C:\Development\Momentum\Momentum\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll

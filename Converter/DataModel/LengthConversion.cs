@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Converter.DataModel
 {
@@ -11,6 +12,7 @@ namespace Converter.DataModel
 
         public string Target { get; set; }
 
+        [Column(TypeName = "decimal(18,4)")]
         public decimal ImperialUnit { get; set; }
     }
 }

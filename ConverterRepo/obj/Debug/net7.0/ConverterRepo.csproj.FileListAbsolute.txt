@@ -10,3 +10,14 @@ D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.dll
 D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\refint\ConverterRepo.dll
 D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.pdb
 D:\Interview\Momentum\ConverterRepo\obj\Debug\net7.0\ref\ConverterRepo.dll
+C:\Development\Momentum\Momentum\ConverterRepo\bin\Debug\net7.0\ConverterRepo.deps.json
+C:\Development\Momentum\Momentum\ConverterRepo\bin\Debug\net7.0\ConverterRepo.dll
+C:\Development\Momentum\Momentum\ConverterRepo\bin\Debug\net7.0\ConverterRepo.pdb
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.AssemblyInfoInputs.cache
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.AssemblyInfo.cs
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.csproj.CoreCompileInputs.cache
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.dll
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\refint\ConverterRepo.dll
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ConverterRepo.pdb
+C:\Development\Momentum\Momentum\ConverterRepo\obj\Debug\net7.0\ref\ConverterRepo.dll

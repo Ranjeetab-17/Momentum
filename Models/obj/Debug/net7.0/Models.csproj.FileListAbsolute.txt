@@ -10,3 +10,14 @@ D:\Interview\Momentum\Models\obj\Debug\net7.0\Models.dll
 D:\Interview\Momentum\Models\obj\Debug\net7.0\refint\Models.dll
 D:\Interview\Momentum\Models\obj\Debug\net7.0\Models.pdb
 D:\Interview\Momentum\Models\obj\Debug\net7.0\ref\Models.dll
+C:\Development\Momentum\Momentum\Models\bin\Debug\net7.0\Models.deps.json
+C:\Development\Momentum\Momentum\Models\bin\Debug\net7.0\Models.dll
+C:\Development\Momentum\Momentum\Models\bin\Debug\net7.0\Models.pdb
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\Models.AssemblyInfoInputs.cache
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\Models.AssemblyInfo.cs
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\Models.csproj.CoreCompileInputs.cache
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\Models.dll
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\refint\Models.dll
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\Models.pdb
+C:\Development\Momentum\Momentum\Models\obj\Debug\net7.0\ref\Models.dll

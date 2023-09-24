@@ -11,8 +11,8 @@ namespace DataAccess.DataModels
     {
         [Key]
         public int Id { get; set; }
-        public string source { get; set; }
-        public string target { get; set; }
-        public decimal imperial { get; set; }
+        public string Source { get; set; }
+        public string Target { get; set; }
+        public decimal Imperial { get; set; }
     }
 }
