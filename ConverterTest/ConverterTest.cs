@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Diagnostics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,25 +9,61 @@ using Converter.ConverterRepository.Interfaces;
 using Converter.Enums;
 using Converter.Model;
 using Moq;
+using Converter.ConverterRepository.Implementations;
+using DataAccess.DataModels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using Converter.DataModel;
+using Microsoft.EntityFrameworkCore;
+using System.Net.NetworkInformation;
 
 namespace ConverterTest
 {
 
+    [TestFixture]
     public class ConverterTest
     {
+
+        IMetricToImperialConverter converter;
+        MockDbContext mockDbContext = new MockDbContext();
+
+        [SetUp]
+        public void Setup()
+        {
+
+        }
+
         [Test]
         public void inTomm()
         {
-            var templateRepo = new Mock<IMetricToImperialConverter>();
+            var data = new List<LengthConversion> {
+                new LengthConversion { Id = 1, ImperialUnit = 25.4000m, Source = "in", Target = "mm" }
+            }.AsQueryable();
 
-            var request = new ConvertRequest { Source = "in", Target = "mm", type = ConvertionType.LENGHT, value = 20 };
+            mockDbContext.CreateDbSetMock(data);
 
-            var converterControllerTest = new UnitConverterController(templateRepo.Object);
+            var metricToImperialConverter = new MetricToImperialConverter(mockDbContext.Context.Object);
 
-            templateRepo.SetUp(p => p.MetricToImerial(request));
+            var controller = new UnitConverterController(metricToImperialConverter);
 
-            var output = converterControllerTest.MetricToImerial(request);
+            var output = controller.MetricToImerial(new ConvertRequest { type = ConvertionType.LENGHT, Source = "mm", Target = "in", value = 20 });
 
+            Assert.Equals("508.00 mm", output);
+        }
+
+        [Test]
+        public void celciusToF()
+        {
+            var data = new List<LengthConversion> { new LengthConversion { Id = 2, ImperialUnit = 20, Source = "c", Target = "f" } }.AsQueryable();
+
+            mockDbContext.CreateDbSetMock(data);
+
+            var metricToImperialConverter = new MetricToImperialConverter(mockDbContext.Context.Object);
+
+            var controller = new UnitConverterController(metricToImperialConverter);
+
+            var output = controller.MetricToImerial(new ConvertRequest { type = ConvertionType.LENGHT, Source = "mm", Target = "in", value = 20 });
+
+            Assert.Equals("68.00° F", output);             
         }
     }
 }

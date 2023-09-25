@@ -1,3 +1,4 @@
+# ignore all logs
 *.cache
 *.dll
 *.exe
@@ -10,6 +11,7 @@ _ReSharper.*/
 *.opensdf
 *.tlog
 *.log
+*.bin/*
 TestResult.xml
 *.VisualState.xml
 Version.cs
