@@ -10,8 +10,9 @@ namespace DataAccess.DataModels
 {
     public class DataContext : DbContext
     {
+        public DataContext() { }
         public DataContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<LengthConversion> LengthConversions { get; set; }
+        public virtual DbSet<LengthConversion> LengthConversions { get; set; }
     }
 }

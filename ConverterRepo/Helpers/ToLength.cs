@@ -6,7 +6,7 @@
         {
             var output = isViceVersa ? value / imperialUnit : imperialUnit * value;
 
-            return $"{output} {target.ToLower()}";
+            return $"{Math.Round(output, 2)} {target.ToLower()}";
         }
     }
 }
