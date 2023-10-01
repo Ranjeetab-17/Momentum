@@ -71,7 +71,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "mm", Target = "in", type = ConvertionType.LENGHT, value = 2 });
 
             //Assert
-            Assert.AreEqual("0.08 in", ((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value);
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("0.08 in"));
         }
 
         [Test]
@@ -85,7 +85,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "km", Target = "m", type = ConvertionType.LENGHT, value = 8 });
 
             //Assert
-            Assert.AreEqual("8000 m", ((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value);
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("8000 m"));
         }
 
 
@@ -99,8 +99,8 @@ namespace ConverterTest
             var converterController = new UnitConverterController(metricToImperialConverter);
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "m", Target = "km", type = ConvertionType.LENGHT, value = 2000 });
 
-            //Assert
-            Assert.AreEqual("2 km", ((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value);
+            //Assert            
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("2 km"));
         }
 
         [Test]
@@ -113,8 +113,8 @@ namespace ConverterTest
             var converterController = new UnitConverterController(metricToImperialConverter);
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "c", Target = "f", type = ConvertionType.TEMPRATURE, value = 10 });
 
-            //Assert
-            Assert.AreEqual("50 °F", ((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value);
+            //Assert            
+             Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("50 °F"));
         }
 
           [Test]
@@ -127,8 +127,8 @@ namespace ConverterTest
             var converterController = new UnitConverterController(metricToImperialConverter);
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "f", Target = "c", type = ConvertionType.TEMPRATURE, value = 10 });
 
-            //Assert
-            Assert.AreEqual("-12.2222 °C", ((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value);
+            //Assert            
+             Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("-12.2222 °C"));
         }
 
     }
