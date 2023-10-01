@@ -23,7 +23,7 @@ namespace Converter.ConverterRepository.Implementations
         public MetricToImperialConverter(DataContext context)
         {
             _context = context;
-        } 
+        }        
 
         public string MetricToImerial(ConvertRequest request)
         {
