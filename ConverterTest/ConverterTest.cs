@@ -57,7 +57,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "in", Target = "mm", type = ConvertionType.LENGHT, value = 2 });
 
             //Assert
-            Assert.AreEqual("50.80 mm", ((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value);
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("50.80 mm"));
         }
 
         [Test]
