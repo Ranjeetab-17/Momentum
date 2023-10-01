@@ -64,6 +64,20 @@ namespace ConverterTest
             Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("0.08 in"));
         }
 
+          [Test]
+        public void MeterToCm()
+        {
+            //Act
+            IMetricToImperialConverter metricToImperialConverter = new MetricToImperialConverter(dataDBContextMock.Object);
+
+            //Arrange
+            var converterController = new UnitConverterController(metricToImperialConverter);
+            var _output = converterController.MetricToImerial(new ConvertRequest { Source = "m", Target = "cm", type = ConvertionType.LENGHT, value = 65 });
+
+            //Assert
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("6500 cm"));
+        }
+
         [Test]
         public void KilometerToMeter()
         {
