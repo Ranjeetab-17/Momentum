@@ -1,22 +1,12 @@
-﻿using System.Diagnostics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Converter.Controllers;
+﻿using Converter.Controllers;
+using Converter.ConverterRepository.Implementations;
 using Converter.ConverterRepository.Interfaces;
+using Converter.DataModel;
 using Converter.Enums;
 using Converter.Model;
-using Moq;
-using Converter.ConverterRepository.Implementations;
 using DataAccess.DataModels;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using Converter.DataModel;
 using Microsoft.EntityFrameworkCore;
-using System.Net.NetworkInformation;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System.ComponentModel.DataAnnotations.Schema;
+using Moq;
 using Moq.EntityFrameworkCore;
 
 

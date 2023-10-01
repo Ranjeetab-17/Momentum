@@ -1,13 +1,8 @@
-using System.Collections;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Converter.ConverterRepository.Interfaces;
+using Converter.DataModel;
 using Converter.Helpers;
 using Converter.Model;
 using DataAccess.DataModels;
-using Converter.DataModel;
 
 namespace Converter.ConverterRepository.Implementations
 {
