@@ -57,7 +57,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "in", Target = "mm", type = ConvertionType.LENGHT, value = 2 });
 
             //Assert
-            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("50.80 mm"));
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("50.80 mm"));
         }
 
         [Test]
@@ -71,7 +71,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "mm", Target = "in", type = ConvertionType.LENGHT, value = 2 });
 
             //Assert
-            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("0.08 in"));
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("0.08 in"));
         }
 
         [Test]
@@ -85,7 +85,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "km", Target = "m", type = ConvertionType.LENGHT, value = 8 });
 
             //Assert
-            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("8000 m"));
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("8000 m"));
         }
 
 
@@ -100,7 +100,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "m", Target = "km", type = ConvertionType.LENGHT, value = 2000 });
 
             //Assert            
-            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("2 km"));
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("2 km"));
         }
 
         [Test]
@@ -114,10 +114,10 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "c", Target = "f", type = ConvertionType.TEMPRATURE, value = 10 });
 
             //Assert            
-             Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("50 °F"));
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("50 °F"));
         }
 
-          [Test]
+        [Test]
         public void FahrenheitToCelcius()
         {
             //Act
@@ -128,7 +128,7 @@ namespace ConverterTest
             var _output = converterController.MetricToImerial(new ConvertRequest { Source = "f", Target = "c", type = ConvertionType.TEMPRATURE, value = 10 });
 
             //Assert            
-             Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value,Is.EqualTo("-12.2222 °C"));
+            Assert.That(((Microsoft.AspNetCore.Mvc.ObjectResult)_output).Value, Is.EqualTo("-12.2222 °C"));
         }
 
     }
